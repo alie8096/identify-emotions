@@ -12,7 +12,10 @@ body {
 }
 
 .slider {
-    margin: 10px 50px;
+    margin: 10px 70px;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
 }
 
 .slide {
@@ -40,6 +43,16 @@ h1, h2 {
 p {
     color: #666;
     line-height: 1.6;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px; /* Optional: to make the edges rounded */
 }
 
 .navigation {
